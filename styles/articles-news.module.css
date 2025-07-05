@@ -1,0 +1,10 @@
+/* styles/articles-news.module.css */
+.headerCustom {
+   position: relative;
+   border: 0;
+   z-index: 999999999;
+}
+.BeatlesHero{
+   opacity: 1;
+   background: none !important;
+}
