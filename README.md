@@ -1,44 +1,47 @@
-# React-Squad-08
-Clone the Repo -> git clone https://github.com/elmertiman/React-Squad-08.git
+# 📰 Articles & News Web App
 
-if you have cloned already earlier
-1. check your are in your own branch -> git branch 
-2. git switch feature/[your branch] 
-3. pull the updates to main branch -> git fetch origin
-4. npm install --legacy-peer-deps
-5. npm run build
-6. run start
+A modern web platform for browsing, reading, and discovering articles and news across various topics. Built with **React**, **Next.js**, and **TypeScript**, this project leverages fast rendering, modular architecture, and type safety for a seamless user experience.
 
-If it is your first time: How to Run to your local After cloning
-1. cd React-Squad-08
-2. npm install --legacy-peer-deps
-3. npm run build
-4. run start
+> 🧑‍🏫 This project was developed as part of our training at **Direcho Trabaho Coding School**, showcasing our skills in modern frontend development and building production-ready web applications.
 
-Create a Branch 
-5. git checkout -b feature/[your branch name]
-* example git checkout -b feature/dareen
+---
 
-Swith to a Branch (if created already)
-5. git swith feature/[your branch name]
-* example git switch feature/dareen
+## 🚀 Features
 
-6. Modify the and play with the code
-7. git push origin feature/[your branch name]
-** to make sure it will push only to your branch not main repo
+- 🗞️ Browse latest articles and news  
+- 🔍 Search and filter by keywords or categories  
+- 📱 Responsive design for all screen sizes  
+- ⚡ Fast performance with Next.js SSR and SSG  
+- 🧩 Component-based architecture using React  
+- ✅ Type-safe codebase with TypeScript
 
-8. Merge the branches later to main repo for submission 
+---
 
-NOTE: 
-* the main file or homepage is main.tsx from the root directory
-* For each fetch from any branch make sure to run:
-    
-    npm install --legacy-peer-deps
-    
-    thi will download any npm package used by other developers
+## 🛠️ Built With
 
-* if get an error after issuing the command -> [ npm install --legacy-peer-deps ] just delete the "node_modules" directory and re-issue the same command ->  [ npm install --legacy-peer-deps ] to rebuild the "node_modules" direcgory
+- [React](https://en.wikipedia.org/wiki/React_(software)) – For building user interfaces  
+- [Next.js](https://en.wikipedia.org/wiki/Next.js) – For server-side rendering and routing  
+- [TypeScript](https://en.wikipedia.org/wiki/TypeScript) – For static type checking  
+- [Tailwind CSS](https://en.wikipedia.org/wiki/Tailwind_CSS) or CSS Modules – For styling  
+- [Axios](https://en.wikipedia.org/wiki/Axios_(software)) or Fetch API – For HTTP requests
 
-RUN in Developer Mode:
-$> npm run dev
+---
+
+### Installation
+
+```bash
+git clone https://github.com/davincodes/DTxACE-Final-Project.git
+npm install
+
+## 📦 Deployment
+
+This project is deployed and live on **Vercel** 🚀  
+🔗 [Live Site] (https://dt-final-reactproject.vercel.app)
+
+### Why Vercel?
+
+- Optimized for **Next.js** apps with zero-config deployment  
+- Built-in support for **SSR**, **SSG**, and **API routes**  
+- Automatic deployment from GitHub push  
+- Global CDN for fast loading anywhere
 
